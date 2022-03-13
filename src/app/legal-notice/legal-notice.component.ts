@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-legal-notice',
@@ -8,9 +7,7 @@ import { Router } from '@angular/router';
 })
 export class LegalNoticeComponent {
 
-constructor(private router: Router) {}
-
-  selected = false;
+  showLegalNotice = false;
 
   forwarder(url: string) {
     window.location.href = url;

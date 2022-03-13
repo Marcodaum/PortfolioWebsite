@@ -1,20 +1,19 @@
 <div fxLayoutAlign="center" fxLayout="row" fxLayout.xs="column" fxLayoutGap="2rem" class="legal-notice">
     <div>
-        <button (click)="selected = !selected" pButton pRipple type="button" label="Legal Notice / Impressum" class="p-button-secondary p-button-text"></button>
+        <button (click)="showLegalNotice = !showLegalNotice" pButton pRipple type="button" label="Legal Notice / Impressum" class="p-button-secondary p-button-text"></button>
     </div>
     <div>
-        <button (click)="forwarder('https://github.com')" pButton pRipple type="button" label="Contribute" class="p-button-secondary p-button-text"></button>
+        <button (click)="forwarder('https://github.com/Marcodaum/PortfolioWebsite')" pButton pRipple type="button" label="Contribute" class="p-button-secondary p-button-text"></button>
     </div>
     <div>
         <button pButton pRipple type="button" label="©2022 Marco Daum" class="p-button-secondary p-button-text" disabled></button>
     </div>
 </div>
-<div *ngIf="selected" class="legal-notice">
+<div *ngIf="showLegalNotice" class="legal-notice">
     <h2>Impressum</h2>
     <p>Marco Daum<br/>
     <p>85057 Ingolstadt<br/>
-
-<br />
+    <br />
     E-Mail: <a href="mailto:impressum@marcodaum.de">impressum@marcodaum.de</a><br />
     </p>
     <br /><br /><h2>Disclaimer – rechtliche Hinweise</h2>

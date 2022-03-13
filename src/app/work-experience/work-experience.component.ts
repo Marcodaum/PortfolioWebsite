@@ -1,13 +1,11 @@
-import {Component,OnInit, ViewEncapsulation} from '@angular/core';
-import {PrimeIcons} from 'primeng/api';
+import {Component} from '@angular/core';
 @Component({  
   selector: 'app-work-experience',
   templateUrl: './work-experience.component.html',
   styleUrls: ['./work-experience.component.scss']
 
 })
-export class WorkExperienceComponent implements OnInit {
-
+export class WorkExperienceComponent {
 
   events = [
     {status: 'A-Level', date: 'July 2020'},
@@ -15,8 +13,5 @@ export class WorkExperienceComponent implements OnInit {
     {status: 'Software Developer at Schanzer-Racing Electric e.V.', date: 'October 2021 - now'},
     {status: 'Founder of the startup "WoSind"', date: 'November 2021 - now'}
 ];;
-    
-    ngOnInit() {
-    }
 
 }
