@@ -11,6 +11,16 @@
     .p-timeline-event-connector {
         height: 8rem;
     }
+
+    @media only screen and (max-width: 800px) {
+        .p-timeline-event-connector {
+            height: 11rem;
+        }
+    }
+}
+
+.date {
+    display: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -19,7 +29,12 @@
         .p-timeline-event-content {
             display: none;
         }
+        .date {
+            color: #848484;
+            display: block;
+            margin-bottom: 0.7rem;
+            font-size: 1.375rem;
 
-
+        }
     }
 }
