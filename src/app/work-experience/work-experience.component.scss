@@ -1,0 +1,25 @@
+:host ::ng-deep {
+    .p-timeline-event-marker	 {
+        background-color: rgb(94, 194, 106);
+    }	
+
+    .p-timeline	{
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 300;
+        font-size: 1.667rem;
+    }
+    .p-timeline-event-connector {
+        height: 8rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    :host ::ng-deep {
+
+        .p-timeline-event-content {
+            display: none;
+        }
+
+
+    }
+}

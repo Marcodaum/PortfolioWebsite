@@ -1,0 +1,31 @@
+.legal-notice {
+    padding-bottom: 2rem;
+}
+
+
+a {
+    text-decoration: none; /* no underline */
+
+}
+
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+      transition: 0.2s;
+    color: rgb(94, 194, 106);
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(94, 194, 106);
+  }

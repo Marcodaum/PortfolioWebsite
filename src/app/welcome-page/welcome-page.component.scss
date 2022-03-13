@@ -1,0 +1,26 @@
+.content {
+    height: 100vh;
+    color: rgb(94, 194, 106);
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.welcome-text {
+    font-size: 3rem;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+:host ::ng-deep {
+    .p-button{
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 400;    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin-top: 1rem;
+    }
+}
