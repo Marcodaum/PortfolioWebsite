@@ -10,14 +10,15 @@
 .container div {
     margin-left: 11vw;
     margin-right: 11vw;
-    font-family: 'Fredoka', sans-serif;
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 
-.headline {
+.content .headline {
     text-align: center;
     font-size: 50px;
     font-weight: 400;
+    font-family: 'Fredoka', sans-serif;
 }
 
 @media only screen and (max-width: 3000px) {

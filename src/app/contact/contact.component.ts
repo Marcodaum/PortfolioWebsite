@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   forwarder(url: string) {
-    window.location.href = url;
+    window.open(url,'_blank');
   }
 }

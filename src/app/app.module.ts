@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
+import { LinksComponent } from './links/links.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
     ContactComponent,
     WorkExperienceComponent,
     WelcomePageComponent,
-    LegalNoticeComponent
+    LegalNoticeComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
