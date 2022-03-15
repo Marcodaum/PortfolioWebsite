@@ -10,7 +10,7 @@ export class LegalNoticeComponent {
   showLegalNotice = false;
 
   forwarder(url: string) {
-    window.location.href = url;
+    window.open(url,'_blank');
   }
 
 }
