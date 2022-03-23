@@ -7,9 +7,23 @@
         font-family: 'Fredoka', sans-serif;
         font-weight: 300;
         font-size: 1.5rem;
+        color: black;
     }
     .p-timeline-event-connector {
         height: 8rem;
+    }
+
+    .p-text-secondary {
+        color: rgb(92, 92, 92);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .p-timeline {
+            color: white;
+        }
+        .p-text-secondary {
+            color: #c8c8c8;
+        }
     }
 
     @media only screen and (max-width: 800px) {
@@ -17,11 +31,15 @@
             height: 11rem;
         }
     }
+
+
 }
 
 .date {
     display: none;
 }
+
+
 
 @media only screen and (max-width: 800px) {
     :host ::ng-deep {
@@ -30,11 +48,9 @@
             display: none;
         }
         .date {
-            color: #848484;
             display: block;
             margin-bottom: 0.7rem;
             font-size: 1.1rem;
-
         }
     }
 }
