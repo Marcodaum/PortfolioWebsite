@@ -1,24 +1,17 @@
-.legal-notice {
+  .legal-notice {
     padding-bottom: 2rem;
     color: black;
-}
+  }
 
-a {
+  a {
     text-decoration: none; /* no underline */
 
-}
+  }
 
-a:link {
-    color: white;
+  a:link a:visited{
+    color: black;
   }
   
-  /* visited link */
-  a:visited {
-    color: white;
-
-  }
-  
-  /* mouse over link */
   a:hover {
     transition: 0.2s;
     color: rgb(94, 194, 106);
@@ -38,7 +31,7 @@ a:link {
 
   @media (prefers-color-scheme: dark) {
   a:link a:visited {
-    color: black;
+    color: white;
   }
   
   a:active, a:hover {
