@@ -1,9 +1,14 @@
-<p-timeline [value]="events">
-    <ng-template pTemplate="opposite" let-event>
-        <small class="p-text-secondary">{{event.date}}</small>
-    </ng-template>
-    <ng-template pTemplate="content" let-event>
-        <div class="date">{{event.date}}</div>
-        <div class="description">{{event.status}}</div>
-    </ng-template>
-</p-timeline>
+<div fxLayoutGap="4rem" fxLayout="column">
+    <div fxLayoutGap="5rem">
+        <p-timeline [value]="events">
+            <ng-template pTemplate="opposite" let-event>
+                <small class="p-text-secondary">{{event.date}}</small>
+            </ng-template>
+            <ng-template pTemplate="content" let-event>
+                <div class="date">{{event.date}}</div>
+                <div class="description">{{event.status}}</div>
+            </ng-template>
+        </p-timeline>
+    </div>
+</div>
+

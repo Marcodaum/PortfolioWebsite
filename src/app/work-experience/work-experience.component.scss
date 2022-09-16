@@ -1,4 +1,9 @@
 :host ::ng-deep {
+    .p-button{
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 400;    
+    }
+
     .p-timeline-event-marker	 {
         background-color: rgb(94, 194, 106);
     }	
@@ -53,4 +58,8 @@
             font-size: 1.1rem;
         }
     }
+}
+
+a {
+    all: unset;
 }

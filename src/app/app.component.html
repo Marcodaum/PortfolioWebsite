@@ -1,22 +1,23 @@
 <div class="container">
-  <div>  <app-welcome-page (notifyScroll) = scroll(target)></app-welcome-page>
+  <div>  
+    <app-welcome-page (notifyScroll) = scroll(target)></app-welcome-page>
   </div>
   <div class="content" fxLayout="column" fxLayoutGap="13rem" #target>  
     <div fxLayout="column" fxLayoutGap="5rem">
-    <div class="headline" fxLayoutAlign="center">THIS IS ME</div>
-    <app-about-me ></app-about-me>
+      <div class="headline" fxLayoutAlign="center">THIS IS ME</div>
+      <app-about-me ></app-about-me>
     </div>
     <div class="content" fxLayout="column" fxLayoutGap="5rem">
       <div class="headline" fxLayoutAlign="center">WHAT I DO</div>
-    <app-work-experience></app-work-experience>
+      <app-work-experience></app-work-experience>
     </div>
     <div class="content" fxLayout="column" fxLayoutGap="5rem">
       <div class="headline" fxLayoutAlign="center">FIND ME ON</div>
-    <app-links></app-links>
+      <app-links></app-links>
     </div>
     <div class="content" fxLayout="column" fxLayoutGap="5rem">
       <div class="headline" fxLayoutAlign="center">HIT ME UP</div>
-    <app-contact></app-contact>
+      <app-contact></app-contact>
     </div>
     <div>
       <app-legal-notice></app-legal-notice>
