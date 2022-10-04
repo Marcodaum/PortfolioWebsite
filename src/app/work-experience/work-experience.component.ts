@@ -9,7 +9,7 @@ export class WorkExperienceComponent {
 
   events = [
     {status: 'Abitur', date: 'July 2020'},
-    {status: 'Dual student at Airbus Defece and Space', date: 'September 2020 - now'},
+    {status: 'Dual student at Airbus Defence and Space', date: 'September 2020 - now'},
     {status: 'Software Developer at Schanzer-Racing Electric e.V.', date: 'October 2021 - now'},
     {status: 'Founder of the startup "WoSind"', date: 'November 2021 - now'},
     {status: 'Intern at Airbus FAL USA', date: 'September 2022 - December 2022'}
