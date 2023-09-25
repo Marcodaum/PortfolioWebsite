@@ -110,5 +110,8 @@
       }
     }
   },
-  "defaultProject": "PortfolioWebsite"
+  "defaultProject": "PortfolioWebsite",
+  "cli": {
+    "analytics": false
+  }
 }
